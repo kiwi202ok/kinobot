@@ -110,12 +110,7 @@ async def handle_movie_code(message: types.Message):
     code = message.text.lower()
 
     
-    await bot.send_video(
-    chat_id=chat_id,
-    video="video.mp4",
-    caption="Bu faqat sizga!",
-    protect_content=True  # 🔒 Forward va save-ni bloklaydi
-)
+    
 
     if code in movies:
         await message.answer(f"🎬 {movies[code]['title']}")
