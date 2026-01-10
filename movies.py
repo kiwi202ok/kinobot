@@ -23,8 +23,9 @@ movies = {
         "title": "Kalmar o'yini 3chi mavsum 6-qism",
         "file_id": "BAACAgIAAxkBAAMzaGPQwpA4HcC7Mz3hg9aoWVUYQeYAAtlrAAIGewFL-5nn85yMWCo2BA"  
     },
-    "104": {
+  
+    "204": {
         "title": "97-modda 4-qism",
-        "file_id": "BAACAgIAAxkBAAIFLWlhTdesxG8U0NaPZZ-YjNcapVn8AAK-kQACVZ0JSyPvN6sugPzcOAQ"  
-    }
+        "file_id": "BAACAgIAAxkBAAIFLWlhTdesxG8U0NaPZZ-YjNcapVn8AAK-kQACVZ0JSyPvN6sugPzcOAQ"
+    },
 }
