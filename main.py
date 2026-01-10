@@ -44,15 +44,15 @@ def language_keyboard():
         [InlineKeyboardButton(text="🇷🇺 Русский", callback_data="lang_ru")],
         [InlineKeyboardButton(text="🇬🇧 English", callback_data="lang_en")],
     ])
-
+    
+# log qilish
 def log_user(message: types.Message):
     user = message.from_user
     timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     username = f"@{user.username}" if user.username else "@yoq"
     line = f"Ism: {user.first_name} | Username: {username} | ID: {user.id} | Sana: {timestamp}\n"
     with open("users.txt", "a", encoding="utf-8") as f:
-    f.write(line)
-
+        f.write(line)
 
 # ✅ /start komandasi
 @dp.message(F.text == "/start")
