@@ -46,13 +46,38 @@ def language_keyboard():
     ])
 
 # ✅ Foydalanuvchini log qilish
+# def log_user(message: types.Message):
+#     user = message.from_user
+#     timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+#     username = f"@{user.username}" if user.username else "@yoq"
+#     line = f"Ism: {user.first_name} | Username: {username} | ID: {user.id} | Sana: {timestamp}\n"
+#     with open("users.txt", "a", encoding="utf-8") as f:
+#         f.write(line)
+
 def log_user(message: types.Message):
     user = message.from_user
+    user_id = str(user.id)
+
+    # Agar fayl bo‘lmasa — yaratib qo‘yamiz
+    try:
+        with open("users.txt", "r", encoding="utf-8") as f:
+            lines = f.readlines()
+    except FileNotFoundError:
+        lines = []
+
+    # Faylda user ID bor-yo‘qligini tekshiramiz
+    for line in lines:
+        if f"ID: {user_id}" in line:
+            return  # bu user oldin yozilgan — chiqib ketamiz
+
+    # Agar topilmasa — yozamiz
     timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     username = f"@{user.username}" if user.username else "@yoq"
-    line = f"Ism: {user.first_name} | Username: {username} | ID: {user.id} | Sana: {timestamp}\n"
+
+    new_line = f"Ism: {user.first_name} | Username: {username} | ID: {user.id} | Sana: {timestamp}\n"
+
     with open("users.txt", "a", encoding="utf-8") as f:
-        f.write(line)
+        f.write(new_line)
 
 # ✅ /start komandasi
 @dp.message(F.text == "/start")
