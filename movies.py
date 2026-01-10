@@ -28,8 +28,8 @@ movies = {
         "file_id": "BAACAgIAAxkBAAIFbmliKse9RUVpECRG3TpZmcjmNFw9AAKmlQACqumQSUzHGRFUPhV9OAQ"
     },
     "202": {
-        "title": "97-modda 2-qism",
-        "file_id": "BAACAgIAAxkBAAIFbmliKse9RUVpECRG3TpZmcjmNFw9AAKmlQACqumQSUzHGRFUPhV9OAQ"
+        "title": "tez soatlarda qoyiladi",
+        "file_id": "BAACAAAxkBAAIFbmliKse9RUVpECRG3TpZmcjmNFw9AAKmlQACqumQSUzHGRFUPhV9OAQ"
     },
     "203": {
         "title": "97-modda 3-qism",
@@ -42,6 +42,11 @@ movies = {
     "205": {
         "title": "97-modda 5-qism",
         "file_id": "BAACAgIAAxkBAAIGA2liagnsYGaPKTSkTq-TWyNBc0cHAAL2lAACk5kQS1zyLYWmxWtsOAQ"
+    },
+
+    "206": {
+        "title": "tez soatlarda qoyiladi",
+        "file_id": "BAACAgIAkBAAIGQmlidY3aoMJrkXWqkhcXtNQKEsAaAAKFjgACMQgRS4TdBBDUc4hjOAQ"
     },
     "207": {
         "title": "97-modda 7-qism",
