@@ -119,6 +119,7 @@ if code in movies:
         video=movies[code]['file_id'],
         protect_content=True
     )
+
         await bot.send_video(chat_id=message.chat.id, video=movies[code]['file_id'])  # ✅ to‘g‘ri
 
 
