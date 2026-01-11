@@ -28,8 +28,8 @@ movies = {
         "file_id": "BAACAgIAAxkBAAIFbmliKse9RUVpECRG3TpZmcjmNFw9AAKmlQACqumQSUzHGRFUPhV9OAQ"
     },
     "202": {
-        "title": "tez soatlarda qoyiladi",
-        "file_id": "BAACAAAxkBAAIFbmliKse9RUVpECRG3TpZmcjmNFw9AAKmlQACqumQSUzHGRFUPhV9OAQ"
+        "title": "97-modda 2-qism",
+        "file_id": "BAACAgIAAxkBAAIHDGljpgPLZJpHlnsIp4GZxJst0ujbAAKVlAACMQgZS3Ls0k0vA2WlOAQ"
     },
     "203": {
         "title": "97-modda 3-qism",
