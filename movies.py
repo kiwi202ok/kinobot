@@ -45,8 +45,8 @@ movies = {
     },
 
     "206": {
-        "title": "tez soatlarda qoyiladi",
-        "file_id": "BAACAgIAkBAAIGQmlidY3aoMJrkXWqkhcXtNQKEsAaAAKFjgACMQgRS4TdBBDUc4hjOAQ"
+        "title": "97-modda 6-qism",
+        "file_id": "BAACAgIAAxkBAAIGwGljQI7-EgZFIvMHrgAB_yTVs0470gAC6o0AAjEIGUuL-bScoJH3GDgE"
     },
     "207": {
         "title": "97-modda 7-qism",
