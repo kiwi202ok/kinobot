@@ -113,11 +113,11 @@ async def handle_movie_code(message: types.Message):
     
 
     if code in movies:
-        await message.answer(f"🎬 {movies[code]['title']}")
-        await bot.send_video(
-            chat_id=message.chat.id,
-            video=movies[code]['file_id'],
-            protect_content=True
+    await message.answer(f"🎬 {movies[code]['title']}")
+    await bot.send_video(
+        chat_id=message.chat.id,
+        video=movies[code]['file_id'],
+        protect_content=True
     )
         await bot.send_video(chat_id=message.chat.id, video=movies[code]['file_id'])  # ✅ to‘g‘ri
 
