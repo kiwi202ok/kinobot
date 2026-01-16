@@ -51,13 +51,13 @@ def language_keyboard():
 # -------------------------------
 # LOG
 # -------------------------------
-def log_user(message: types.Message):
-    user = message.from_user
-    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    username = f"@{user.username}" if user.username else "@yoq"
-    line = f"Ism: {user.first_name} | Username: {username} | ID: {user.id} | Sana: {timestamp}\n"
-    with open("users.txt", "a", encoding="utf-8") as f:
-        f.write(line)
+# def log_user(message: types.Message):
+#     user = message.from_user
+#     timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+#     username = f"@{user.username}" if user.username else "@yoq"
+#     line = f"Ism: {user.first_name} | Username: {username} | ID: {user.id} | Sana: {timestamp}\n"
+#     with open("users.txt", "a", encoding="utf-8") as f:
+#         f.write(line)
 
 # -------------------------------
 # START
