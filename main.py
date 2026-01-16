@@ -104,10 +104,12 @@ async def show_users(message: types.Message):
     try:
         with open("users.txt", "r", encoding="utf-8") as f:
             data = f.read()
-        await message.answer(f"📋 Foydalanuvchilar:\n\n{data[:4090]}")
-    except:
-        await message.answer("📂 Hali foydalanuvchi yo‘q.")
-
+        if not data:
+            await message.answer("📂 Hozircha hech kim botdan foydalanmagan.")
+        else:
+            await message.answer(f"📋 Foydalanuvchilar ro‘yxati:\n\n{data[:4090]}")
+    except FileNotFoundError:
+        await message.answer("❌ users.txt topilmadi.")
 # -------------------------------
 # KINO KODI
 # -------------------------------
