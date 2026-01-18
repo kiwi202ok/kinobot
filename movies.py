@@ -23,6 +23,10 @@ movies = {
         "title": "Kalmar o'yini 3chi mavsum 6-qism",
         "file_id": "BAACAgIAAxkBAAMzaGPQwpA4HcC7Mz3hg9aoWVUYQeYAAtlrAAIGewFL-5nn85yMWCo2BA"  
     },
+    "7": {
+        "title": "Uch Qahramon",
+        "file_id": "BAACAgIAAxkBAAIPY2ltJo86bcoMZ_C0p-iSBX1u5ovkAAI_fwACTfIgSPOR5uGkXocVOAQ"  
+    },
     "201": {
         "title": "97-modda 1-qism",
         "file_id": "BAACAgIAAxkBAAIFbmliKse9RUVpECRG3TpZmcjmNFw9AAKmlQACqumQSUzHGRFUPhV9OAQ"
