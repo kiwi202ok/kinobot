@@ -51,7 +51,7 @@ def language_keyboard():
 # -------------------------------
 # LOG
 # -------------------------------
-deflog_user(message: types.Message):
+def log_user(message: types.Message):
     user = message.from_user
     timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     username = f"@{user.username}" if user.username else "@yoq"
